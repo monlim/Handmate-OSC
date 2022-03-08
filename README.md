@@ -27,11 +27,15 @@ Go to https://monlim.github.io/MediaPipe-Hands-OSC/ on your browser and start wa
 # Usage
 Please use Google Chrome or Firefox on a Desktop. Will not work in Safari. UDP send on port 8080 and receive on port 9129.
 
-Note: you will need another application to receive your OSC landmarks and process them. There is a MaxMSP patch example in the folder. Landmarks are prefixed as:
+Note: you will need another application to receive your OSC landmarks and process them. There is a MaxMSP patch example in the assets folder. Landmarks are prefixed as:
 
-```/lx for Left Hand x-axis 
-/ly for Left Hand y-axis
-/rx for Right Hand x-axis
-/ry for Right Hand y-axis```
+* /lx for Left Hand x-axis 
+* /ly for Left Hand y-axis
+* /rx for Right Hand x-axis
+* /ry for Right Hand y-axis
 
+This is a list of the landmarks (image provided by Google MediaPipe):
 
+![Image provided by Google MediaPipe](https://monlim.github.io/MediaPipe-Hands-OSC/assets/Mediapipe_Hand_landmarks.png)
+
+For more information on the hand-tracking model, please see [MediaPipe documentation](https://google.github.io/mediapipe/solutions/hands.html).
