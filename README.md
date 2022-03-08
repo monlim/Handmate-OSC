@@ -8,13 +8,13 @@ Download the MediaPipe-Hands-OSC code folder.
 
 Open your terminal window on Mac (press CMD + spacebar simultaneously, in the search window, type in terminal and enter) or Command Prompt on Windows. Go to the folder where you downloaded MediaPipe-Hands-OSC. You can do this by just dragging the folder into the terminal winwdow and press enter. Or type in 'cd' followed by the path name. For example, if you put the folder on your desktop:
 
-```$ cd desktop/MediaPipe-Hands-OSC/```
+```$ cd desktop/MediaPipe-Hands-OSC-main/```
 
-Install package dependencies (the files you will need to run the code on Node) by typing in:
+Install package dependencies (the files you will need to run the code) by typing in:
 
 ```$ npm install```
 
-If you get a permission error, try typing this instead and when terminal asks for a password, enter your administrator password:
+Mac users - If you get a permission error, try typing this instead and when terminal asks for a password, enter your administrator password:
 
 ```$ sudo npm install```
 
@@ -22,7 +22,9 @@ Then, run bridge.js to start the OSC link by typing:
 
 ```$ node bridge.js```
 
-Go to https://monlim.github.io/MediaPipe-Hands-OSC/ on your browser and start waving your hands around.
+You should see a message 'osc success'.
+
+Double click to open the index.html file OR go to https://monlim.github.io/MediaPipe-Hands-OSC/ on your browser. Start waving your hands around.
 
 # Usage
 Please use Google Chrome or Firefox on a Desktop. Will not work in Safari. UDP send on port 8080 and receive on port 9129.
