@@ -1,0 +1,28 @@
+html *
+{
+   font-size: 12px !important;
+   color: #000 !important;
+   font-family: Arial !important;
+   line-height: 0.8;
+}
+
+.input_video {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  &.selfie {
+    transform: scale(-1, 1);
+  }
+}
+
+.output_canvas {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+

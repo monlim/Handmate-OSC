@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MediaPipe Hands OSC</title>
+    <link rel="stylesheet" type="text/css" href="appstyle.css" />
+    <link rel="stylesheet" type="text/css" href="appstyle.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3/camera_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils@0.6/control_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3/drawing_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.3/hands.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/adzialocha/osc-js/lib/osc.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="input_video"></video>
+      <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+      <div class="landmark-grid-container"></div>
+    </div>
+    <br />
+    Send: 8080 Receive: 9129
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
