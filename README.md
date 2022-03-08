@@ -22,9 +22,16 @@ Then, run bridge.js to start the OSC link by typing:
 
 ```$ node bridge.js```
 
-Recommended installation via npm: npm i osc-js or yarn add osc-js.
-
-Import the library const OSC = require('osc-js') or add the script lib/osc.js or lib/osc.min.js (minified version) for usage in a browser.
+Go to https://monlim.github.io/MediaPipe-Hands-OSC/ on your browser and start waving your hands around.
 
 # Usage
 Please use Google Chrome or Firefox on a Desktop. Will not work in Safari. UDP send on port 8080 and receive on port 9129.
+
+Note: you will need another application to receive your OSC landmarks and process them. There is a MaxMSP patch example in the folder. Landmarks are prefixed as:
+
+```/lx for Left Hand x-axis 
+/ly for Left Hand y-axis
+/rx for Right Hand x-axis
+/ry for Right Hand y-axis```
+
+
