@@ -24,7 +24,7 @@ Then, run bridge.js to start the OSC link by typing:
 
 You should see a message 'osc success'.
 
-Double click to open the index.html file OR go to https://monlim.github.io/MediaPipe-Hands-OSC/ on your browser. Start waving your hands around.
+Double click to open the index.html file OR go to https://monlim.github.io/Handmate-OSC/ on your browser. Start waving your hands around.
 
 # Usage
 Please use Google Chrome or Firefox on a Desktop. Will not work in Safari. UDP send on port 8080 and receive on port 9129.
