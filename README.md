@@ -1,5 +1,5 @@
-# MediaPipe-Hands-OSC
-MediaPipe-Hands-OSC implements the Google MediaPipe Hand model on the browser, getting the landmarks from two hands and outputting to OSC via UDP using the [osc.js library](https://github.com/adzialocha/osc-js#osc-js).
+# Handmate-OSC
+Handmate-OSC implements the Google MediaPipe Hand model on the browser, getting the landmarks from two hands and outputting to OSC via UDP using the [osc.js library](https://github.com/adzialocha/osc-js#osc-js). UPDATE- there is an OFFLINE version available here: https://github.com/monlim/Handmate-OSC-Offline 
 
 # Installation Guide for Beginners
 You must have Node installed on your computer. If you don't, download the latest stable version [here](https://nodejs.org/en/). Launch the installer and install Node.
@@ -24,7 +24,7 @@ Then, run bridge.js to start the OSC link by typing:
 
 You should see a message 'osc success'. You must do this before opening the browser.
 
-Double click to open the index.html file OR go to http://127.0.0.1:5500/index.html OR https://monlim.github.io/Handmate-OSC/ on your browser. Start waving your hands around.
+Go to http://127.0.0.1:5500/index.html OR https://monlim.github.io/Handmate-OSC/ on your browser. Start waving your hands around.
 
 # Usage
 Please use Google Chrome or Firefox on a Desktop. Will not work in Safari. UDP send on port 8080 and receive on port 9129.
