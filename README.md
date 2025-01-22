@@ -4,11 +4,11 @@ Handmate-OSC implements the Google MediaPipe Hand model on the browser, getting 
 # Installation Guide for Beginners
 You must have Node installed on your computer. If you don't, download the latest stable version [here](https://nodejs.org/en/). Launch the installer and install Node.
 
-Download the MediaPipe-Hands-OSC code folder.
+Download the Handmate-OSC code folder.
 
 Open your terminal window on Mac (press CMD + spacebar simultaneously, in the search window, type in terminal and enter) or Command Prompt on Windows. Go to the folder where you downloaded MediaPipe-Hands-OSC. You can do this by just dragging the folder into the terminal winwdow and press enter. Or type in 'cd' followed by the path name. For example, if you put the folder on your desktop:
 
-```$ cd desktop/MediaPipe-Hands-OSC-main/```
+```$ cd desktop/Handmate-OSC/```
 
 Install package dependencies (the files you will need to run the code) by typing in:
 
@@ -27,7 +27,7 @@ You should see a message 'osc success'. You must do this before opening the brow
 Go to http://127.0.0.1:5500/index.html OR https://monlim.github.io/Handmate-OSC/ on your browser. Start waving your hands around.
 
 # Usage
-Please use Google Chrome or Firefox on a Desktop. Will not work in Safari. UDP send on port 8080 and receive on port 9129.
+UDP send on port 8080 and receive on port 9129.
 
 Note: you will need another application to receive your OSC landmarks and process them. There is a MaxMSP patch example in the assets folder. Landmarks are prefixed as:
 
